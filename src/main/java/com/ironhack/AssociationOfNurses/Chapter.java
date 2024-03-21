@@ -1,6 +1,8 @@
 package com.ironhack.AssociationOfNurses;
 
 import jakarta.persistence.*;
+
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -18,6 +20,6 @@ public class Chapter {
     private Member president;
 
     @OneToMany()
-    private List<Member> members;
+    private List<Member> members = new ArrayList<>();
 
 }

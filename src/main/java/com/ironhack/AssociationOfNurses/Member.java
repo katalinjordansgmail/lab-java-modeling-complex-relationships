@@ -10,6 +10,10 @@ public class Member {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @ManyToOne()
+    @JoinColumn(name = "chapter_id", referencedColumnName = "id")
+    private Chapter chapter;
+
     private String name;
 
     @Enumerated(EnumType.STRING)
