@@ -19,7 +19,7 @@ public class Chapter {
     @JoinColumn(name = "president_id", referencedColumnName = "id")
     private Member president;
 
-    @OneToMany()
+    @OneToMany(mappedBy = "chapter")
     private List<Member> members = new ArrayList<>();
 
 }
