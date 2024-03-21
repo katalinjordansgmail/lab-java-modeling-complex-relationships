@@ -1,7 +1,7 @@
-package com.ironhack.ironlibrary.repository;
+package com.ironhack.repository;
 
 import com.ironhack.ironlibrary.model.Book;
-import com.ironhack.ironlibrary.model.Chapter;
+import com.ironhack.model.Chapter;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

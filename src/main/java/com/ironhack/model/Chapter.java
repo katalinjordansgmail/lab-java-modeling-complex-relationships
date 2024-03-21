@@ -1,11 +1,13 @@
 /* (C)2024 */
-package com.ironhack.ironlibrary.model;
+package com.ironhack.model;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.List;
 
 @Entity
 @Table(name = "chapters")

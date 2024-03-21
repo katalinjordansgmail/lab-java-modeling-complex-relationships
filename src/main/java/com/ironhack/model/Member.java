@@ -1,7 +1,7 @@
 /* (C)2024 */
-package com.ironhack.ironlibrary.model;
+package com.ironhack.model;
 
-import com.ironhack.ironlibrary.model.Components.Status;
+import com.ironhack.model.Components.Status;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;

@@ -1,5 +1,4 @@
-/* (C)2024 */
-package com.ironhack.ironlibrary;
+package com.ironhack;
 
 import com.ironhack.ironlibrary.model.Book;
 import com.ironhack.ironlibrary.repository.BookRepository;
@@ -14,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
 
 @SpringBootApplication
-public class Main implements CommandLineRunner {
+public class Main {
 
     public static void main(String[] args) {
 

@@ -1,7 +1,7 @@
 /* (C)2024 */
-package com.ironhack.ironlibrary.repository;
+package com.ironhack.repository;
 
-import com.ironhack.ironlibrary.model.Member;
+import com.ironhack.model.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
