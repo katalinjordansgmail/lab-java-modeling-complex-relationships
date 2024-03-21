@@ -14,6 +14,7 @@ public class Chapter {
     private String district;
 
     @OneToOne()
+    @JoinColumn(name = "president_id", referencedColumnName = "id")
     private Member president;
 
     @OneToMany()

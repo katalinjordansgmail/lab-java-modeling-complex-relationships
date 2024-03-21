@@ -6,6 +6,8 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "type")
 abstract public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
